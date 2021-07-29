@@ -18,28 +18,26 @@ NOTE: The streaming feature is only available for premium Spotify accounts which
 
 ### Landing Page
 
-![Alt text](/landing.png?raw=true "Optional Title")
-![Alt text](/landing-register.png?raw=true "Optional Title")
+![Alt text](/Landing.png?raw=true "Optional Title")
+![Alt text](/Register.png?raw=true "Optional Title")
 
 
 ### Analytics Page
 
-![Alt text](/landing.png?raw=true "Optional Title")
-![Alt text](/landing-register.png?raw=true "Optional Title")
+![Alt text](/Analytics.png?raw=true "Optional Title")
 
 
 ### Explore Tab 
 
-![Alt text](/landing.png?raw=true "Optional Title")
-![Alt text](/landing-register.png?raw=true "Optional Title")
+![Alt text](/Explore.png?raw=true "Optional Title")
 
 
 ### Reccomended Tab 
 
-![Alt text](/landing.png?raw=true "Optional Title")
-![Alt text](/landing-register.png?raw=true "Optional Title")
+![Alt text](/Reccomended.png?raw=true "Optional Title")
+
 
 ### Playlists Tab 
 
-![Alt text](/landing.png?raw=true "Optional Title")
-![Alt text](/landing-register.png?raw=true "Optional Title")
+![Alt text](/Playlists.png?raw=true "Optional Title")
+
