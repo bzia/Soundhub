@@ -1,0 +1,81 @@
+h3 {
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 12em;
+  color: white;
+}
+
+.sidebar {
+  padding-top: 16em;
+  padding-bottom: 16em;
+  padding-left: 20px;
+  padding-right: 20px;
+  /* background: '#24192E'; */
+
+  background: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.icons {
+  text-decoration: none;
+  font-size: 25px;
+  color: #563774;
+  display: block;
+  text-align: center;
+}
+
+i:hover {
+  color: #24192e;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+}
+
+.spotify-pic {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+[data-initials] {
+  background: #563774;
+
+  border-radius: 50%;
+}
+[data-initials]:after {
+  color: white;
+  opacity: 1;
+  content: attr(data-initials);
+  display: inline-block;
+  font-weight: bold;
+
+  vertical-align: middle;
+
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+[data-initials]:hover {
+  background: #24192e;
+}
+
+i:hover {
+  color: #24192e;
+}
+
+/* .headphone-icon :hover {
+  background-color: red;
+} */

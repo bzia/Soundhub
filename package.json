@@ -1,0 +1,38 @@
+{
+  "name": "soundhubv1",
+  "version": "1.0.0",
+  "description": "Spotify streaming and analytics app",
+  "main": "server.js",
+  "dependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/node": "^7.14.5",
+    "@babel/preset-env": "^7.14.5",
+    "@babel/register": "^7.14.5",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^10.0.0",
+    "dotenv-cli": "^4.0.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "pg": "^8.6.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.6.2",
+    "sequelize-cli": "^6.2.0",
+    "styled-components": "^5.3.0",
+    "styled-icons": "^10.33.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+  },
+  "author": "Bobby Zia",
+  "license": "ISC"
+}

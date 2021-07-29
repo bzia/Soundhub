@@ -1,0 +1,9 @@
+.playlist-title {
+  color: white;
+  font-weight: bolder;
+}
+
+.playlist-creator {
+  color: gray;
+  font-size: smaller;
+}

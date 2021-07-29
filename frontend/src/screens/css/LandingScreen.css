@@ -1,0 +1,60 @@
+.landing {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(131, 74, 223);
+  background: linear-gradient(
+    93deg,
+    rgba(131, 74, 223, 1) 0%,
+    rgba(138, 86, 223, 1) 36%,
+    rgba(252, 86, 170, 1) 59%,
+    rgba(252, 86, 170, 1) 87%,
+    rgba(252, 86, 170, 1) 99%
+  );
+}
+
+.main-title {
+  font-size: 15vw;
+  font-family: system-ui;
+  font-weight: 200;
+  color: black;
+  text-align: center;
+}
+
+.outer-login {
+  padding: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10em;
+  margin-right: 10em;
+  justify-content: center;
+  font-size: 3.5vw;
+  font-weight: 100;
+  color: white;
+}
+
+.item2 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(137, 70, 241);
+  background: linear-gradient(
+    93deg,
+    rgba(137, 70, 241, 1) 0%,
+    rgba(252, 86, 170, 1) 0%,
+    rgba(252, 86, 170, 1) 40%,
+    rgba(151, 86, 252, 1) 61%,
+    rgba(151, 86, 252, 1) 87%,
+    rgba(151, 86, 252, 1) 100%
+  );
+}
+
+.landing-footer {
+  padding-bottom: 2em;
+  bottom: 0;
+  position: absolute;
+}

@@ -1,0 +1,30 @@
+.login {
+  display: inline-block;
+  position: relative;
+  color: white;
+  margin-right: 2em;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.login:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.login:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
