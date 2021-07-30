@@ -3,7 +3,7 @@ A spotify web player and social/music stats viewer!
 
 Uses sessionStorage and localStorage to keep relevant user and API data available to the app.
 
-Now Live! @ https://soundhub-app.herokuapp.com/
+Now Live! @ https://soundhub-app.herokuapp.com/ (may take some time to load initially because of free tier heroku)
 
 ### Login Info
 You can either create a new account or use my test account; (note that passwords are encryped in the db). After this, you can connect a spotify account.
